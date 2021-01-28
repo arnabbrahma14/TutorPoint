@@ -2,6 +2,10 @@
 <html>
 <head>
 	<title>TutorPoint | Courses</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="fontawesome/css/all.css" rel="stylesheet">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark text-white fixed-top">
@@ -18,10 +22,6 @@
 
 					<li class="nav-item">
 						<a class="nav-link pl-3" href="home.html">Home</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link pl-3" href="courses.html">Courses</a>
 					</li>
 
 					<li class="nav-item">
@@ -43,5 +43,109 @@
 		</div>
 
 	</nav>
+
+	<img src="headerbg.jpg" class="img-fluid position-absolute" alt="Header Image">
+
+	<div class="coding-padding container">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb ol-breadcrumb fontstyle1">
+				<li class="breadcrumb-item active"><a class="text-white h4" href="home.html">Home</a></li>
+				<li class="breadcrumb-item text-danger h4" aria-current="page">Courses</li>
+			</ol>
+		</nav>
+	</div>
+
+	<div class="container-fluid container-pad">
+		<div class="row justify-content-center">
+			<div class=" col-3">
+				<div class="d-flex p-2 bg-danger text-white justify-content-center mb-1"><h3 class="fontstyle1 text-center">Course</h3></div>
+			</div>
+		</div>
+		<div class="jumbotron bg-danger">
+			<form>
+				<div class="form-inline justify-content-center">
+						<input type="text" name="Code-Name" class="font-italic from-control p-3 m-2 code-name" placeholder="Course">
+						<input type="text" name="Category-Program" class="font-italic from-control p-3 m-2 category-program" placeholder="Category">
+						<button class="btn btn-dark text-white p-3 m-2" type="Search">Search Course</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+	<div class="container-fluid container-pad pt-4">
+		<div class="row">
+			<div class="col-8">
+				<img src="./laptop.jpg" class="img-fluid w-100 h-75" alt="Laptop">
+			</div>
+			<div class="col-3 ml-4">
+				<button class="btn btn-light btn-sm" style="padding: 10px 200px 10px 20px;">Search</button>
+				<h3 class="fontstyle1 text-dark mt-5">Categories</h3>
+				<div>
+					<ul style="list-style: none;">
+						
+						<li class="pt-5" ><a href="courses.html" style="text-decoration: none;" class="hover-link">Computer Science</a></li></a>
+						<li class="pt-3"><a href="courses.html" style="text-decoration: none;" class="hover-link">Database Tutorials</a></li>
+						<li class="pt-3"><a href="courses.html" style="text-decoration: none;" class="hover-link">Programming Languages</a></li>
+						<li class="pt-3"><a href="courses.html" style="text-decoration: none;" class="hover-link">Mobile Development</a></li>
+						<li class="pt-3"><a href="courses.html" style="text-decoration: none;" class="hover-link">Java Technology</a></li>
+
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer-color mt-4">
+		<div class="container-fluid pt-3">
+			<div class="row">
+				<div class="col-3">
+					<h3><i class="fas fa-book"></i><strong class="fontstyle1 text-white"> TutorPoint</strong></h3>
+					<br><br>
+					<a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.google.co.in"><i class="fab fa-google"></i></a>
+					<p class="lead">Copyright © 2020 All rights reserved | Made by <a href="home.html">TutorPoint</a></p>
+				</div>
+				<div class="offset-3 col-2">
+					<h3><strong class="fontstyle1">ABOUT US</strong></h3>
+					<ul>
+						<li><i class="fas fa-check"></i><a href="#"> Company</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Our Team</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Careers</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Privacy Policy</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Cookies Policy</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Terms of use</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Investors</a></li>
+					</ul>
+				</div>
+				<div class="col-2">
+					<h3><strong class="fontstyle1">EXTRA LINKS</strong></h3>
+					<ul>
+						<li><i class="fas fa-check"></i><a href="#"> Articles</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Dev Tools</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Free Graphics</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> File Conversion</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Shared Tutorials</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> NetMeeting</a></li>
+						<li><i class="fas fa-check"></i><a href="#"> Whiteboard</a></li>
+					</ul>
+				</div>
+				<div class="col-2">
+					<h3><strong class="fontstyle1">CONTACT US</strong></h3>
+					<ul class="address-color">
+						<li><b>Address</b>: 10th Floor,<br>VIP Road,Mumbai,<br>Maharashtra,404041</li><br>
+						<li><b>Website</b>: www.Tutorpoint.com</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

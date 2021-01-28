@@ -94,3 +94,10 @@
 {
 	padding: 0px 50px 0px 50px;
 }
+
+.hover-link{
+	color:darkgrey;
+}
+.hover-link:hover{
+	color: rgba(220,53,69,1);
+}
