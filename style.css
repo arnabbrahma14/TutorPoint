@@ -1,0 +1,96 @@
+.fontstyle1
+{
+	font-family: 'Quicksand', sans-serif;
+}
+.navbar-dark
+{
+	background: #010101;
+}
+.nav-link:hover
+{
+	color: yellow;
+}
+.fontstyle2
+{
+	font-family: 'Bangers', cursive;
+}
+.fontstyle3
+{
+	font-family: 'Dancing Script', cursive;
+}
+
+.card-img-top
+{
+	height:190px;
+}
+.card-footer
+{
+	background-color: rgba(108,117,125,0.2);
+}
+.jumbotron-color
+{
+	background-color: rgba(108,117,125,0.2);
+}
+.d-flex
+{
+	background-color: rgba(108,117,125,0.2);
+}
+.hav:hover
+{
+	background-color: rgba(220,53,69,1);
+	color: white;
+}
+
+.hav:hover p
+{
+	color: white;
+}
+.p-color
+{
+	color: rgba(220,53,69,1);
+}
+.footer-color
+{
+	background-color: #73e600;
+}
+.address-color
+{
+	color: rgba(108,117,125,0.9);
+}
+.img-fluid
+{
+  z-index: -1
+
+}
+.img-text
+{
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+
+.ol-breadcrumb
+{
+	background: none;
+}
+.coding-padding
+{
+	padding-top: 180px;
+	padding-bottom: 235px;
+}
+.code-name
+{
+	width: 30%;
+}
+.category-program
+{
+	width: 30%;
+}
+.btn-dark
+{
+	background: #000000; 
+	width: 25%
+}
+.container-pad
+{
+	padding: 0px 50px 0px 50px;
+}
