@@ -57,12 +57,7 @@
 {
 	color: rgba(108,117,125,0.9);
 }
-.img-fluid
-{
-  z-index: -1
-
-}
-.img-text
+#img-text
 {
 	padding-top: 250px;
 	padding-bottom: 250px;
@@ -72,9 +67,9 @@
 {
 	background: none;
 }
-.coding-padding
+#coding-padding
 {
-	padding-top: 180px;
+	padding-top: 150px;
 	padding-bottom: 235px;
 }
 .code-name
