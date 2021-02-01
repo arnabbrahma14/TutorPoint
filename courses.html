@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>TutorPoint | Courses</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&family=Quicksand:wght@600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -44,37 +45,43 @@
 
 	</nav>
 
-	<img src="headerbg.jpg" class="img-fluid position-absolute w-100" alt="Header Image" style="z-index: -1;">
-	<!-- <div style="background-image: url(./headerbg.jpg)"> -->
 
-		<div class="container">
-			<div id="coding-padding">
-				<script>
-					var pad = document.getElementById("coding-padding")
-					// if(screen.height <= 640)
-					// 	pad.style.paddingBottom = "70px"
-				</script>
+	<div  id="img-text" style="background-image: url(./headerbg.jpg); padding:30%;">
+
+		
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb ol-breadcrumb fontstyle1">
 						<li class="breadcrumb-item active"><a class="text-white h4" href="home.html">Home</a></li>
 						<li class="breadcrumb-item text-danger h4" aria-current="page">Courses</li>
 					</ol>
 				</nav>
-			</div>
+			
 	</div>
 
 	<div class="container-fluid container-pad">
 		<div class="row justify-content-center">
-			<div class=" col-3">
-				<div class="d-flex p-2 bg-danger text-white justify-content-center mb-1"><h3 class="fontstyle1 text-center">Course</h3></div>
+			<div class="col-lg-3 col-sm-12">
+				<div class="d-flex p-2 bg-danger text-white justify-content-center"><h3 class="fontstyle1 text-center">Course</h3></div>
 			</div>
 		</div>
 		<div class="jumbotron bg-danger">
 			<form>
-				<div class="form-inline justify-content-center">
+				<!-- <div class="form-inline justify-content-center">
 						<input type="text" name="Code-Name" class="font-italic from-control p-3 m-2 code-name" placeholder="Course">
 						<input type="text" name="Category-Program" class="font-italic from-control p-3 m-2 category-program" placeholder="Category">
-						<button class="btn btn-dark text-white p-3 m-2" type="Search">Search Course</button>
+						<button class="btn btn-dark text-white p-lg-3 m-lg-2" type="Search">Search Course</button>
+				</div> -->
+
+				<div class="form-row align-items-center">
+					<div class="col-lg-4 col-xs-12">
+					  <input type="text" class="form-control" id="inlineFormInput" placeholder="Course">
+					</div>
+					<div class="col-lg-4 col-xs-12">
+						<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Category">
+					</div>
+					<div class="col-lg-4 col-xs-12 my-1">
+					  <button type="submit" class="btn text-white" style="background: black; width:  100%;" type="submit">Search Course</button>
+					</div>
 				</div>
 			</form>
 		</div>
@@ -102,6 +109,14 @@
 					</ul>
 				</div>
 			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid container-pad mt-4">
+		<h3 class="fontstyle1 text-dark">How to Look for Online Courses</h3>
+		<div class="mt-4">
+			<img src="./profilephoto.jpg" alt="profile photo" style="width: 45pt; height: 45pt; border-radius: 45pt;">
+
 		</div>
 	</div>
 
